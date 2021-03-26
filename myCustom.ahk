@@ -1,5 +1,5 @@
 ﻿LCtrl & Tab::AltTab
-LCtrl & q::WinClose, A ; Alt+Q
+LCtrl & q::WinClose, A
 ^Left::Send {Home}
 ^Right::Send {End}
 ^Up::Send {Lctrl down}{Home}{Lctrl up}
@@ -16,3 +16,7 @@ LAlt & Up::Send {Lwin down}{Tab}{Lwin up}
 LAlt & Down::Send {Lwin down}{Tab}{Lwin up}
 #^Left::Send {Lwin down}{Left}{Lwin up}
 #^Right::Send {Lwin down}{Right}{Lwin up}
+
+; My custom bashrc for terminal windows
+; shopt -s autocd 
+; alias gco='git checkout'
