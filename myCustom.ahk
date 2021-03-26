@@ -12,3 +12,7 @@ LCtrl & q::WinClose, A ; Alt+Q
 #Right::Send {Lctrl down}{Right}{Lctrl up}
 #+Left::Send {Lctrl down}{shift down}{Left}}{shift up}{Lctrl up}
 #+Right::Send {Lctrl down}{shift down}{Right}}{shift up}{Lctrl up}
+LAlt & Up::Send {Lwin down}{Tab}{Lwin up}
+LAlt & Down::Send {Lwin down}{Tab}{Lwin up}
+#^Left::Send {Lwin down}{Left}{Lwin up}
+#^Right::Send {Lwin down}{Right}{Lwin up}
