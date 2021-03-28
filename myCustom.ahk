@@ -16,6 +16,11 @@ LAlt & Up::Send {Lwin down}{Tab}{Lwin up}
 LAlt & Down::Send {Lwin down}{Tab}{Lwin up}
 #^Left::Send {Lwin down}{Left}{Lwin up}
 #^Right::Send {Lwin down}{Right}{Lwin up}
+>^a::SoundSet, -5
+>^d::SoundSet, +5
+>^w:: Send {Media_Play_Pause}
+>^e:: Send {Media_Next}
+>^q:: Send {Media_Prev}
 
 ; My custom bashrc for terminal windows
 ; shopt -s autocd 
