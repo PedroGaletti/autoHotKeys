@@ -23,5 +23,16 @@ LAlt & Down::Send {Lwin down}{Tab}{Lwin up}
 >^q:: Send {Media_Prev}
 
 ; My custom bashrc for terminal windows
-; shopt -s autocd 
+; shopt -s autocd
 ; alias gco='git checkout'
+
+; # save path on cd
+; function cd {
+;     builtin cd $@
+;     pwd > ~/.last_dir
+; }
+
+; # restore last saved path
+; if [ -f ~/.last_dir ]
+;     then cd `cat ~/.last_dir`
+; fi
