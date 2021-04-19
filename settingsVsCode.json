@@ -1,0 +1,46 @@
+{
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "workbench.colorCustomizations": {},
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.suggest.autoImports": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": true,
+    "breadcrumbs.enabled": true,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "GitHub Dark",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact"
+    ],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": -1,
+    "workbench.iconTheme": "material-icon-theme"
+  }
